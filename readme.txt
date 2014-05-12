@@ -12,12 +12,13 @@ This plugin allows users to encrypt emails in their content and widgets using a 
  
 This plugin allows users to encrypt emails in their content and widgets using a simple shortcode. The encryption uses a native Wordpress function antispambot().
  
-To encrypt your email simply use the shortcode [encrypt_email email="your@email-here.com" text="The text you want to be seen by users. Default: email"]
+To encrypt your email simply use the shortcode:
+[encrypt_email email="your@email-here.com" text="Text displayed (Defaults to email)"]
  
 = Support =
 
 * ["Github"](https://github.com/lukewatts/encrypt-email)
-* ["Contact Plugin Author"](http://luke-watts.com/contact)
+* ["Contact Plugin Author"](http://luke-watts.com)
  
 = Future Features =
 * In a future release there will be a TinyMCE button which will allow you to simply highlight your email in the content and wrap it in the shortcode which will encrypt it. For now you'll have to simply type it.
@@ -26,7 +27,7 @@ To encrypt your email simply use the shortcode [encrypt_email email="your@email-
 * I am open for your suggestions and feedback - Thank you for using or trying out one of my plugins!
 * Follow me on [Twitter](https://twitter.com/LukeWatts85)
 * Find me on [Github](https://github.com/lukewatts)
-* Contact me through my website at [Luke Watts](http://luke-watts.com/contact)
+* Contact me through my website at [Luke Watts](http://luke-watts.com)
  
 == Installation ==
  
