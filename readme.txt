@@ -19,7 +19,7 @@ To encrypt your email simply use the shortcode:
 = Future Features =
 * In a future release there will be a TinyMCE button which will allow you to simply highlight your email in the content and wrap it in the shortcode which will encrypt it. For now you'll have to simply type it.
  
-= Wnat to contribute? =
+= Want to contribute? =
 * Fork the project on [Github](https://github.com/lukewatts/encrypt-email)
 * Contact me through my website at [Luke Watts](http://luke-watts.com)
  
