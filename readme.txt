@@ -1,7 +1,7 @@
 === Encrypt Email ===
 Contributors: LukeQuietus
 Donate link: http://luke-watts.com/doesnt-want-donations
-Tags: email, spam protection, encryption, email encryption, encrypt email, encoder, encode email, email cypher, cypher
+Tags: email, spam protection, encrypt, encryption, email encryption, encrypt email, encoder, encode email, email cypher, cypher
 Requires at least: 3.0
 Tested up to: 3.9
 Stable tag: 1.0.0
