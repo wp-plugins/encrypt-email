@@ -1,9 +1,9 @@
 === Encrypt Email ===
-Contributors: LukeQuietus
+Contributors: LukeQuietus, Affinity4
 Donate link: http://luke-watts.com/doesnt-want-donations
 Tags: email, spam protection, encrypt, encryption, email encryption, encrypt email, encoder, encode email, email cypher, cypher
 Requires at least: 3.0
-Tested up to: 3.9
+Tested up to: 4.0
 Stable tag: 1.0.0
  
 This plugin allows users to encrypt emails in their content and widgets using a simple shortcode. The encryption uses a native Wordpress function antispambot().
