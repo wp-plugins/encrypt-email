@@ -37,11 +37,12 @@ If you want to display specific text use:
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Simply place the shortcode with the email attribute filled out correctly and be spam free*
 
- *I can't ACTUALLY gaurantee you'll be spam free but you'll certainly be alot better off than you'd be with nothing.
+ *Of course there's no way for me 100% gaurantee you'll be spam free but this will certainly make it harder for email harvesters
+ and spambots than doing nothing!
  
 == Frequently Asked Questions ==
  
-= Does this plugin work with newest WP version and also older versions? =
+= Does this plugin work with the newest WordPress version and also older versions? =
 Yes, this plugin works with WordPress 3 upwards!
  
 = Will this work in my theme's widget areas? =
@@ -53,7 +54,7 @@ No screenshots available at this time.
  
 == Changelog ==
  
-=1.1.0=
+= 1.1.0 =
 * Tested compatibility for WordPress 4.0
 * Added shortcode [encrypted_email] which allows you to wrap emails in your content to encrypt them.
 
@@ -62,7 +63,7 @@ No screenshots available at this time.
  
 == Upgrade Notice ==
 
-=1.1.0=
+= 1.1 =
 * Tested compatibility for WordPress 4.0
 * Added shortcode [encrypted_email] which allows you to wrap emails in your content to encrypt them.
 
