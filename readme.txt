@@ -4,7 +4,7 @@ Donate link: http://luke-watts.com/doesnt-want-donations
 Tags: email, spam protection, encrypt, encryption, email encryption, encrypt email, encoder, encode email, email cypher, cypher
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 1.0.0
+Stable tag: 1.1.0
  
 This plugin allows users to encrypt emails in their content and widgets using a simple shortcode. The encryption uses a native Wordpress function antispambot().
  
@@ -15,6 +15,14 @@ This plugin allows users to encrypt emails in their content and widgets using a 
 To encrypt your email simply use the shortcode:
 
 [encrypt_email email="your@email-here.com" text="Text displayed"]
+
+or since v1.1.0 you can wrap your email in the shortcode using:
+
+[encrypted_email]your@email-here.com[/encrypted_email]
+
+If you want to display specific text use:
+
+[encrypted_email text="Text to be displayed goes here"]your@email-here.com[/encrypted_email]
  
 = Future Features =
 * In a future release there will be a TinyMCE button which will allow you to simply highlight your email in the content and wrap it in the shortcode which will encrypt it. For now you'll have to simply type it.
@@ -34,7 +42,7 @@ To encrypt your email simply use the shortcode:
 == Frequently Asked Questions ==
  
 = Does this plugin work with newest WP version and also older versions? =
-Yes, this plugin works really fine with WordPress 3 upwards!
+Yes, this plugin works with WordPress 3 upwards!
  
 = Will this work in my theme's widget areas? =
 As long as the theme has enabled shortcodes in your sidebar / widgets then this method will work. However, if the widget is already inserting the <a href="mailto: "></a> link then this shortcode won't work in such fields. You'll notice upon saving the widget then it removes everything after the first " sign.
@@ -45,10 +53,18 @@ No screenshots available at this time.
  
 == Changelog ==
  
+=1.1.0=
+* Tested compatibility for WordPress 4.0
+* Added shortcode [encrypted_email] which allows you to wrap emails in your content to encrypt them.
+
 = 1.0.0 =
 * Initial release
  
 == Upgrade Notice ==
+
+=1.1.0=
+* Tested compatibility for WordPress 4.0
+* Added shortcode [encrypted_email] which allows you to wrap emails in your content to encrypt them.
 
 = 1.0 =
 * Initial release
