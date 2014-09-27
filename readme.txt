@@ -28,6 +28,7 @@ Since 2.0 you can use the 'Encrypt Email' button on the Visual Editor tab to wra
  
 = Future Features =
 * Popup with text fields to insert email and display text for shortcode.
+* Options panel with configuration options, including ability to pre-configure shortcode for one-click insertion of admin email and additional types of encryption including ASCII (SINGLE ENCRYPTION), ASCII (DUAL ENCRYPTION), DECHEX, WORDPRESS and RANDOM
  
 = Want to contribute? =
 * Fork the project on [Github](https://github.com/lukewatts/encrypt-email)
@@ -56,6 +57,9 @@ As long as the theme has enabled shortcodes in your sidebar / widgets then this 
 No screenshots available at this time.
  
 == Changelog ==
+
+= 2.1.0 =
+* Added icon to display beside sucessfully encrypted emails. ( Viewable only for logged in users )
 
 = 2.0.0 =
 * Added TinyMCE button which will allow you to simply select your email and click "Encrypt Email" to wrap it in the [encrypted_email] shortcode.
