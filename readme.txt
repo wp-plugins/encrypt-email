@@ -4,7 +4,7 @@ Donate link: http://luke-watts.com/doesnt-want-donations
 Tags: email, spam protection, encrypt, encryption, email encryption, encrypt email, encoder, encode email, email cypher, cypher
 Requires at least: 3.0
 Tested up to: 4.0
-Stable tag: 1.1.0
+Stable tag: 2.0.0
  
 This plugin allows users to encrypt emails in their content and widgets using a simple shortcode. The encryption uses a native Wordpress function antispambot().
  
@@ -23,9 +23,12 @@ or since v1.1.0 you can wrap your email in the shortcode using:
 If you want to display specific text use:
 
 [encrypted_email text="Text to be displayed goes here"]your@email-here.com[/encrypted_email]
+
+Since 2.0 you can use the 'Encrypt Email' button on the Visual Editor tab to wrap your selected email.
  
 = Future Features =
-* In a future release there will be a TinyMCE button which will allow you to simply highlight your email in the content and wrap it in the shortcode which will encrypt it. For now you'll have to simply type it.
+* Popup with text fields to insert email and display text for shortcode.
+* Options panel with configuration options, including ability to pre-configure shortcode for one-click insertion of admin email and additional types of encryption including ASCII (SINGLE ENCRYPTION), ASCII (DUAL ENCRYPTION), DECHEX, WORDPRESS and RANDOM
  
 = Want to contribute? =
 * Fork the project on [Github](https://github.com/lukewatts/encrypt-email)
@@ -35,7 +38,8 @@ If you want to display specific text use:
  
 1. Upload the entire `encrypt-email` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Simply place the shortcode with the email attribute filled out correctly and be spam free*
+3. Select your email in Visual Editor tab. 
+4. Click "Encrypt Email" to wrap it in the [encrypted_email] shortcode and be spam free*
 
  *Of course there's no way for me 100% gaurantee you'll be spam free but this will certainly make it harder for email harvesters
  and spambots than doing nothing!
@@ -53,7 +57,13 @@ As long as the theme has enabled shortcodes in your sidebar / widgets then this 
 No screenshots available at this time.
  
 == Changelog ==
- 
+
+= 2.1.0 =
+* Added icon to display beside sucessfully encrypted emails. ( Viewable only for logged in users )
+
+= 2.0.0 =
+* Added TinyMCE button which will allow you to simply select your email and click "Encrypt Email" to wrap it in the [encrypted_email] shortcode.
+
 = 1.1.0 =
 * Tested compatibility for WordPress 4.0
 * Added shortcode [encrypted_email] which allows you to wrap emails in your content to encrypt them.
