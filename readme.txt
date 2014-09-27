@@ -14,17 +14,19 @@ This plugin allows users to encrypt emails in their content and widgets using a 
  
 To encrypt your email simply use the shortcode:
 
-[encrypt_email email="your@email-here.com" text="Text displayed"]
+`[encrypt_email email="your@email-here.com" text="Text displayed"]`
 
 or since v1.1.0 you can wrap your email in the shortcode using:
 
-[encrypted_email]your@email-here.com[/encrypted_email]
+`[encrypted_email]your@email-here.com[/encrypted_email]`
 
 If you want to display specific text use:
 
-[encrypted_email text="Text to be displayed goes here"]your@email-here.com[/encrypted_email]
+`[encrypted_email text="Text to be displayed goes here"]your@email-here.com[/encrypted_email]`
 
 Since 2.0 you can use the 'Encrypt Email' button on the Visual Editor tab to wrap your selected email.
+
+Since 2.1 a lock icon is displayed beside sucessfully encrypted emails, viewable only for logged in users.
  
 = Future Features =
 * Popup with text fields to insert email and display text for shortcode.
