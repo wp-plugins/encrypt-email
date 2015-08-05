@@ -3,8 +3,8 @@ Contributors: LukeQuietus, Affinity4
 Donate link: http://luke-watts.com/doesnt-want-donations
 Tags: email, spam protection, encrypt, encryption, email encryption, encrypt email, encoder, encode email, email cypher, cypher
 Requires at least: 3.0
-Tested up to: 4.2
-Stable tag: 3.1.0
+Tested up to: 4.2.4
+Stable tag: 3.1.1
  
 This plugin allows users to encrypt emails in their content and widgets using a simple shortcode. The encryption uses a native Wordpress function antispambot().
  
@@ -59,6 +59,9 @@ As long as the theme has enabled shortcodes in your sidebar / widgets then this 
 No screenshots available at this time.
  
 == Changelog ==
+
+= 3.1.1 =
+* Formatting code. Removing PHP 5.3+ array syntax from Shortcodes class
 
 = 3.1.0 =
 * MAJOR BUG FIX: Fixed issue where files in subfolders where not loading

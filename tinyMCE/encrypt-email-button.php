@@ -5,17 +5,18 @@
  * @return void
  * @since  2.0.0
  */
-function lw_encrypt_email_add_mce_button() {
-  if ( !current_user_can( 'edit_posts' ) && !current_user_can( 'edit_pages' ) ) {
+function lw_encrypt_email_add_mce_button()
+{
+  if (!current_user_can('edit_posts') && !current_user_can('edit_pages')) {
     return;
   }
 
-  if ( 'true' == get_user_option( 'rich_editing' ) ) {
-    add_filter( 'mce_external_plugins', 'lw_add_encrypt_email_button' );
-    add_filter( 'mce_buttons', 'lw_register_encrypt_email_button' );
+  if (get_user_option('rich_editing') == 'true') {
+    add_filter('mce_external_plugins', 'lw_add_encrypt_email_button');
+    add_filter('mce_buttons', 'lw_register_encrypt_email_button');
   }
 }
-add_action( 'admin_head', 'lw_encrypt_email_add_mce_button' );
+add_action('admin_head', 'lw_encrypt_email_add_mce_button');
 
 /**
  * Add encrypt-email-mce-plugin.js file
@@ -24,7 +25,8 @@ add_action( 'admin_head', 'lw_encrypt_email_add_mce_button' );
  * @return string               Absolute path to encrypt-email-mce-plugin.js
  * @since  2.0.0
  */
-function lw_add_encrypt_email_button( $plugin_array ) {
+function lw_add_encrypt_email_button($plugin_array)
+{
   $plugin_array['lw_mce_encrypt_email'] = plugins_url() . '/encrypt-email/tinyMCE/js/encrypt-email-mce-plugin.js';
   
   return $plugin_array;
@@ -36,8 +38,9 @@ function lw_add_encrypt_email_button( $plugin_array ) {
  * @return array          Array of TinyMCE buttons
  * @since  2.0.0
  */
-function lw_register_encrypt_email_button( $buttons ) {
-  array_push( $buttons, 'lw_mce_encrypt_email' );
+function lw_register_encrypt_email_button($buttons)
+{
+  array_push($buttons, 'lw_mce_encrypt_email');
   
   return $buttons;
 }
